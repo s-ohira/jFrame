@@ -1,0 +1,39 @@
+{
+    "calcView": {
+        "attribute":{
+            ".btn_num": {
+                "click": "onClickButtonNum"
+            },
+            "#btn_dot": {
+                "click": "onClickButtonDot"
+            },
+            "#btn_add": {
+                "click": "onClickButtonAdd"
+            },
+            "#btn_reduce": {
+                "click": "onClickButtonReduce"
+            },
+            "#btn_multi": {
+                "click": "onClickButtonMulti"
+            },
+            "#btn_devide": {
+                "click": "onClickButtonDevide"
+            },
+            "#btn_equal": {
+                "click": "onClickButtonEqual"
+            }
+        },
+        "property": {
+            "calcModel": {
+                "display":"#display",
+                "btnNum":".btn_num",
+                "btnNum":"#btnDot",
+                "btnAdd":"#btn_add",
+                "btnReduce":"#btn_reduce",
+                "btnMulti":"#btn_multi",
+                "btnDevide":"#btn_devide",
+                "btnEqual":"#btn_equal"
+            }
+        }
+    }
+}
